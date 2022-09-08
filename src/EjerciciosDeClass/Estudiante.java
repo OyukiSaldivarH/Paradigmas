@@ -1,6 +1,6 @@
 package EjerciciosDeClass;
 
-public class Estudiante extends Persona{
+public class Estudiante extends Persona implements intAlumno,intAlumno2{
     String noCuenta;
     String curso;
     String calificacion;
@@ -41,5 +41,25 @@ public void verCurso(){
         System.out.println("No.de cuenta"+noCuenta);
         System.out.println("Curso"+curso);
         System.out.println("Calificacion"+ calificacion);
+    }
+
+    @Override
+    public void MostrarCurso() {
+
+    }
+
+    @Override
+    public void MostrarGrado() {
+
+    }
+
+    @Override
+    public int obtenerAñosCarrera() {
+        return 0;
+    }
+
+    @Override
+    public void EntrarCurso() {
+
     }
 }
