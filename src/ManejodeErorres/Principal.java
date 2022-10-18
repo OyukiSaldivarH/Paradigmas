@@ -8,8 +8,9 @@ public class Principal {
         try {
             System.out.println(numeros[3]);
 
-        } catch (Exception e){
-            throw new RuntimeException(e);
+        } catch (java.lang.ArrayIndexOutOfBoundsException e){
+            System.out.println("Error: "+e.getMessage());
+
         }
 
         System.out.println("Final");
