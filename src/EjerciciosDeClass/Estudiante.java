@@ -32,7 +32,7 @@ public Estudiante(){
 public void verCurso(){
     System.out.println("El curso es"+curso);
 }
-@Override
+//@Override
     public void mostrarinfo(){
         System.out.println("nombre: "+ getNombre());
         System.out.println("edad: "+getEdad());

@@ -29,11 +29,10 @@ public class Persona {
         this.direccion=direccion;
 
     }
-    public void mostrarinfo(){
-        System.out.println("nombre: "+nombre);
-        System.out.println("edad: "+edad);
-        System.out.println("sexo: "+sexo);
-        System.out.println("direccion: "+direccion);
+    @Override
+    public  String toString(){
+        return "Nombre" + nombre+ "\nEdad:"+edad
+                +"\nSexo:"+sexo+"\nDireccion"+direccion;
     }
 
 }
